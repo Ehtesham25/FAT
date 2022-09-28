@@ -1,0 +1,43 @@
+.create {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.pick_date {
+  display: flex;
+  gap: 5px;
+  margin-right: 10px;
+}
+
+.submit_div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 18px 0px;
+}
+.cancel {
+  border: none;
+  padding: 10px 25px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: gray;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.submit {
+  border: none;
+  padding: 10px 25px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #8456ec;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}

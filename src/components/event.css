@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px 20px;
+}
+.icon {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 13px 19px 0px rgba(219, 200, 200, 0.75);
+  -webkit-box-shadow: 0px 13px 19px 0px rgba(219, 200, 200, 0.75);
+  -moz-box-shadow: 0px 13px 19px 0px rgba(219, 200, 200, 0.75);
+}
+.date_div {
+  display: flex;
+  flex-direction: column;
+}
+.start_date {
+  color: #29135b;
+  font-weight: 450;
+  font-size: 20px;
+}
+.end_date {
+  color: #585858;
+  font-size: 17px;
+}
